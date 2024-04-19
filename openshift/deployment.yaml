@@ -18,7 +18,7 @@ spec:
       imagePullSecrets:
         - name: bootcamp-pull-secret
       containers:
-      - image: bootcamp/demoapp:660
+      - image: alerantdevopsbootcamp.azurecr.io/bootcamp/student8
         imagePullPolicy: Always
         name: devops-bootcamp-springboot
         ports:
